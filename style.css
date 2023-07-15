@@ -188,7 +188,34 @@ nav ul li a {
 }
 
 
+/* Sponsor section  */
+.sponsor-container{
+    padding: 4rem 13rem;
+    text-align: center;
+}
 
+.sponsor-title{
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.sponsor-description{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+
+.sponsor-icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.sponsor-icon{
+    
+}
 
 
 
@@ -244,6 +271,18 @@ nav ul li a {
     
     .fact-card-container {
         flex-direction: column;
+    }
+
+
+    /* Sponsor section  */
+    .sponsor-container{
+        padding: 1rem 1rem;
+    }
+    
+    .sponsor-icon-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 }
 
