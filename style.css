@@ -139,6 +139,85 @@ nav ul li a {
 .btn-feature {}
 
 
+/* Features section  */
+.features-container {
+    padding: 3rem 13rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.features-content {
+    padding: 0 2rem 0 0;
+    width: 70%;
+}
+
+.features-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 0.5rem solid #FF900E;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+}
+
+.features-description {
+    color: #727272;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+.features-box {
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem gray;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.features-box-title {
+    margin-bottom: 1rem;
+}
+
+
+.features-box-description {
+    margin-bottom: 1rem;
+}
+
+.features-icon {
+    padding-left: 3rem;
+    padding-top: 5rem;
+    margin-left: 3rem;
+}
+
+.features-pic {
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.btn-features {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    left: -25px;
+    bottom: 70px;
+}
+
+
+.features-sub-title {
+    font-size: 0.5em;
+}
+
+
+
+
+
+
+
+
 /* Some Fact */
 .fact-container {
     padding: 4rem 13rem;
@@ -163,7 +242,7 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     margin: 4rem 0;
-    
+
 }
 
 .fact-card {
@@ -189,23 +268,23 @@ nav ul li a {
 
 
 /* Sponsor section  */
-.sponsor-container{
+.sponsor-container {
     padding: 4rem 13rem;
     text-align: center;
 }
 
-.sponsor-title{
+.sponsor-title {
     margin: 1rem;
     font-size: 3rem;
 }
 
-.sponsor-description{
+.sponsor-description {
     margin: 1rem;
     font-size: 1rem;
 }
 
 
-.sponsor-icon-container{
+.sponsor-icon-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -213,11 +292,19 @@ nav ul li a {
     gap: 1.5rem;
 }
 
-.sponsor-icon{
-    
+.sponsor-icon {}
+
+/* Footer section  */
+footer {
+    margin: 4rem 13rem;
+    text-align: center;
+    border: 0.2rem solid black;
+    border-radius: 0.25rem;
+    background-color: #866540;
+    color: #fff;
+    height: 2.5rem;
+    padding: 1rem;
 }
-
-
 
 
 /* Responsive Style for small device  */
@@ -254,36 +341,60 @@ nav ul li a {
     .feature-text {
         padding: 0rem;
     }
+/* Features section  */
+.features-container {
+    padding: 1rem 3rem;
+    flex-direction: column;
+
+}
+
+.features-content {
+    width: 100%;
+}
+
+
+
+.features-icon {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.features-pic {
+    padding-top: 1rem;
+}
+
 
 
     /* Fact section  */
     .fact-container {
         padding: 3rem 5rem;
     }
-    
-    .fact-title {
-    
-    }
-    
+
+    .fact-title {}
+
     .fact-description {
         width: 100%;
     }
-    
+
     .fact-card-container {
         flex-direction: column;
     }
 
 
     /* Sponsor section  */
-    .sponsor-container{
+    .sponsor-container {
         padding: 1rem 1rem;
     }
-    
-    .sponsor-icon-container{
+
+    .sponsor-icon-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
     }
+
+    /* Footer section  */
+    footer {}
 }
 
 
@@ -318,21 +429,54 @@ nav ul li a {
     .feature-text {
         padding: 0rem;
     }
-     /* Fact section  */
-     .fact-container {
+
+
+    /* Features section  */
+.features-container {
+    padding: 1rem 3rem;
+    flex-direction: column;
+
+}
+
+.features-content {
+    width: 100%;
+}
+
+
+
+.features-icon {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.features-pic {
+    padding-top: 1rem;
+}
+    /* Fact section  */
+    .fact-container {
         padding: 3rem 5rem;
     }
-    
-    .fact-title {
-    
-    }
-    
+
+    .fact-title {}
+
     .fact-description {
         width: 100%;
     }
-    
+
     .fact-card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* sponsor section  */
+    .sponsor-container {
+        padding: 1rem 1rem;
+    }
+
+    .sponsor-icon-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 }
