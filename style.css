@@ -17,7 +17,8 @@
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1rem;
-    border: navajowhite;
+    cursor: pointer;
+    border: none;
 }
 
 /* Header section  */
@@ -25,7 +26,7 @@
 
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 200px;
+    padding: 3rem 13rem;
 
 }
 
@@ -47,7 +48,7 @@ nav {
 
 nav>ul {
     display: flex;
-    gap: 30px;
+    gap: 2rem;
 }
 
 nav li {
@@ -57,7 +58,7 @@ nav li {
 nav ul li a {
     text-decoration: none;
     color: #424242;
-    font-weight: 500;
+    font-weight: bold
 
 }
 
@@ -86,7 +87,7 @@ nav ul li a {
 .banner-description {
     color: #727272;
     font-weight: 400;
-    margin: 1rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 .banner-btn{
@@ -100,3 +101,92 @@ nav ul li a {
 .banner-pic {
     width: 100%;
 }
+
+/* Feature section  */
+.feature-container{
+    margin: 4rem 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.feature-icon{
+
+}
+
+.feature-text{
+    padding: 3rem;
+}
+
+.feature-title{
+    color: #727272;
+    font-weight: 700;
+    margin: 1.5rem 0rem;
+    font-size: 3rem;
+}
+
+.feature-text-black{
+    color: #131313;
+}
+
+.feature-text-yellow{
+    color: #FF900E;
+}
+
+.feature-description{
+    margin: 1.5rem 0rem;
+}
+
+.btn-feature{
+
+}
+
+
+
+
+
+
+
+/* Responsive Style for small device  */
+@media screen and (max-width: 576px) {
+
+    /* Header responsive  */
+
+    header {
+        background: rgba(255, 144, 14, 0.10);
+        padding: 1rem 0.5rem;
+    }
+    .banner-text {
+        width: 80%;
+    }
+    nav>ul {
+        flex-direction: column;
+        padding-right: 0.7rem;
+    }
+}
+
+
+
+/* Responsive Style for medium device */
+@media screen and (min-width: 576px) and (max-width: 960px){
+
+    /* Header responsive  */
+
+    header {
+        background: rgba(255, 144, 14, 0.10);
+        padding: 1.5rem 1rem;
+    }
+    
+    .banner-text {
+        width: 80%;
+    }
+}
+
+
+
