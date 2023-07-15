@@ -1,8 +1,102 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+/* Shared section  */
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.btn-primary {
+    border-radius: 0.5rem;
+    background: #FF900E;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    border: navajowhite;
+}
+
+/* Header section  */
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+
+}
+
+
+.nav-container {}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.nav-menu {}
+
+nav>ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+
+}
+
+
+
+/* This is Banner section  */
+
+.banner-container {}
+
+.banner-text {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 1rem 0rem;
+
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    margin: 1rem 0rem;
+}
+
+.banner-btn{
+
+}
+
+.banner-img {
+
+}
+
+.banner-pic {
+    width: 100%;
 }
